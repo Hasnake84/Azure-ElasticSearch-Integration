@@ -1,6 +1,6 @@
-<a href="https://imgur.com/54Ue0mM"><img src="https://i.imgur.com//54Ue0mM.png" title="source: imgur.com" /></a>  
-
 # Azure-ElasticSearch-Integration
+
+<a href="https://imgur.com/47SJVpr"><img src="https://i.imgur.com//47SJVpr.png" title="source: imgur.com" /></a>  
 
 This project envolves integrating and deploying a SIEM tool 'ElasticSearch' with-in Microsoft Azure in order to Streamline log management and real-time threat detection for quicker identification and response to security incidents, by analyzing log data and identifying vulnerabilities, we can take steps to improve our security posture and prevent future attacks.
 
