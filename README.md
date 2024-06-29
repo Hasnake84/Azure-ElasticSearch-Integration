@@ -25,32 +25,39 @@ In essence, these integrations provide a powerful and centralized platform for c
    - under 'Elastic deployment configuration' > Logs & metrics > Logs >
    - select the boxes for 'Send subscription activity logs' and 'Send Azure resource logs for all defined resources' > Save
 
-    <a href="https://imgur.com/RCzJyAS"><img src="https://i.imgur.com//RCzJyAS.png" title="source: imgur.com" /></a>   
+   <a href="https://imgur.com/RCzJyAS"><img src="https://i.imgur.com//RCzJyAS.png" title="source: imgur.com" /></a>   
 
 # 3. Elastic Cluster resource 
    - under 'Elastic deployment configuration' > Virtual machines
    - Select VM resouces > Install Extension 
 
-    <a href="https://imgur.com/qOcdi43"><img src="https://i.imgur.com//qOcdi43.png" title="source: imgur.com" /></a>   
+   <a href="https://imgur.com/qOcdi43"><img src="https://i.imgur.com//qOcdi43.png" title="source: imgur.com" /></a>   
 
 # 4. View Logs & Metrics for a resource
    - Elastic Cluster resource > Virtual machines >
    - Under 'View data' column Select 'Metrics'
    
-     <a href="https://imgur.com/z9EdReP"><img src="https://i.imgur.com//z9EdReP.png" title="source: imgur.com" /></a>
+   <a href="https://imgur.com/z9EdReP"><img src="https://i.imgur.com//z9EdReP.png" title="source: imgur.com" /></a>
 
    - Under 'View data' column Select 'Logs'
 
-     <a href="https://imgur.com/DJSWGLZ"><img src="https://i.imgur.com//DJSWGLZ.png" title="source: imgur.com" /></a>   
+   <a href="https://imgur.com/DJSWGLZ"><img src="https://i.imgur.com//DJSWGLZ.png" title="source: imgur.com" /></a>
 
+# 5. View Kibana User Interface
+   - Elastic Cluster resource > Overview > Deployment URL (Kibana)
 
+   <a href="https://imgur.com/i3IsFsc"><img src="https://i.imgur.com//i3IsFsc.png" title="source: imgur.com" /></a>
 
-    
-     
-3. Simulating a Live Brute-Force Attack:
+   - Kibana > Secujrity > Explore > Hosts
 
-A controlled brute-force attack attempt will be simulated against the target Linux machine. This will generate security logs that will be captured by Filebeat on the Azure VMs and ingested into the Elasticsearch cluster.
-4. Visualizing Live Attack Traffic:
+   <a href="https://imgur.com/onNlGn2"><img src="https://i.imgur.com//onNlGn2.png" title="source: imgur.com" /></a>   
+
+# 6. Visualizing Live Attack Network Traffic:
+   - Kibana > Secujrity > Explore > Network
+
+   <a href="https://imgur.com/tc6zMDg"><img src="https://i.imgur.com//tc6zMDg.png" title="source: imgur.com" /></a>   
+
+# 7. 
 
 We will utilize Kibana, the visualization platform for Elasticsearch, to analyze and visualize the ingested logs in real-time. This will allow us to monitor for suspicious activity, including the simulated brute-force attack, and gain insights into potential security threats.
 Project Benefits:
