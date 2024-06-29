@@ -57,7 +57,18 @@ In essence, these integrations provide a powerful and centralized platform for c
 
    <a href="https://imgur.com/tc6zMDg"><img src="https://i.imgur.com//tc6zMDg.png" title="source: imgur.com" /></a>   
 
-# 7. 
+# 7. User Authentications Success/Fail
+   - Kibana > Secujrity > Explore > Users
+   - Observe the number of 'Failed' SSH login authentications into my Linux VM in the last 30 days.
+   - Indicative of a Brute force attack
+
+ <a href="https://imgur.com/xEohiFa"><img src="https://i.imgur.com//xEohiFa.png" title="source: imgur.com" /></a>  
+
+   - Observe the number of 'Failed' SSH login authentications into my Linux VM in one day.
+   - Indicative of a Brute force attack 
+
+  <a href="https://imgur.com/iDBHm61"><img src="https://i.imgur.com//iDBHm61.png" title="source: imgur.com" /></a>   
+
 
 We will utilize Kibana, the visualization platform for Elasticsearch, to analyze and visualize the ingested logs in real-time. This will allow us to monitor for suspicious activity, including the simulated brute-force attack, and gain insights into potential security threats.
 Project Benefits:
