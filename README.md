@@ -25,17 +25,28 @@ In essence, these integrations provide a powerful and centralized platform for c
    - under 'Elastic deployment configuration' > Logs & metrics > Logs >
    - select the boxes for 'Send subscription activity logs' and 'Send Azure resource logs for all defined resources' > Save
 
-   <a href="https://imgur.com/RCzJyAS"><img src="https://i.imgur.com//RCzJyAS.png" title="source: imgur.com" /></a>   
+    <a href="https://imgur.com/RCzJyAS"><img src="https://i.imgur.com//RCzJyAS.png" title="source: imgur.com" /></a>   
 
 # 3. Elastic Cluster resource 
    - under 'Elastic deployment configuration' > Virtual machines
    - Select VM resouces > Install Extension 
 
-   <a href="https://imgur.com/qOcdi43"><img src="https://i.imgur.com//qOcdi43.png" title="source: imgur.com" /></a>   
+    <a href="https://imgur.com/qOcdi43"><img src="https://i.imgur.com//qOcdi43.png" title="source: imgur.com" /></a>   
+
+# 4. View Logs & Metrics for a resource
+   - Elastic Cluster resource > Virtual machines >
+   - Under 'View data' column Select 'Metrics'
+   
+     <a href="https://imgur.com/z9EdReP"><img src="https://i.imgur.com//z9EdReP.png" title="source: imgur.com" /></a>
+
+   - Under 'View data' column Select 'Logs'
+
+     <a href="https://imgur.com/DJSWGLZ"><img src="https://i.imgur.com//DJSWGLZ.png" title="source: imgur.com" /></a>   
 
 
-Two Azure VMs will be provisioned. These VMs will serve as log ingestion agents responsible for collecting logs from various sources, including the target Linux machine.
-Install Extension to the VMs.
+
+    
+     
 3. Simulating a Live Brute-Force Attack:
 
 A controlled brute-force attack attempt will be simulated against the target Linux machine. This will generate security logs that will be captured by Filebeat on the Azure VMs and ingested into the Elasticsearch cluster.
