@@ -59,41 +59,41 @@ In essence, these integrations provide a powerful and centralized platform for c
 
 # 6. Visualizing Live Attack Network Traffic
    
-   - Kibana > Security > Explore > Network
+   - Kibana > Security > Explore > Network  
    - Observe multiple geo locations of the malicious source IP
 
    <a href="https://imgur.com/tc6zMDg"><img src="https://i.imgur.com//tc6zMDg.png" title="source: imgur.com" /></a>   
 
 # 7. User Authentications Success/Fail
   
-   - Kibana > Security > Explore > Users
-   - Observe the number of 'Failed' SSH login authentications into my Linux VM in the last 30 days.
-   - Indicative of a Brute force attack
+   - Kibana > Security > Explore > Users 
+   - Observe the number of 'Failed' SSH login authentications into my Linux VM in the last 30 days.  
+   - Indicative of a Brute force attack.
 
- <a href="https://imgur.com/xEohiFa"><img src="https://i.imgur.com//xEohiFa.png" title="source: imgur.com" /></a>  
+   <a href="https://imgur.com/xEohiFa"><img src="https://i.imgur.com//xEohiFa.png" title="source: imgur.com" /></a>  
 
-   - Observe the number of 'Failed' SSH login authentications into my Linux VM in one day.
-   - Indicative of a Brute force attack 
+   - Observe the number of 'Failed' SSH login authentications into my Linux VM in one day.  
+   - Indicative of a Brute force attack.
 
- <a href="https://imgur.com/iDBHm61"><img src="https://i.imgur.com//iDBHm61.png" title="source: imgur.com" /></a>  
+   <a href="https://imgur.com/iDBHm61"><img src="https://i.imgur.com//iDBHm61.png" title="source: imgur.com" /></a>  
 
  # 8. Event logs from host machine
-   
-    - Kibana > Security > Explore > Hosts > Events
-    - Multiple SSH login attempts from single IP
-    - Threat actor used a number of user names on the brute force attack
+ 
+   - Kibana > Security > Explore > Hosts > Events
+   - Multiple SSH login attempts from single IP
+   - Threat actor used a number of user names on the brute force attack
 
- <a href="https://imgur.com/1obIeHL"><img src="https://i.imgur.com//1obIeHL.png" title="source: imgur.com" /></a>  
+   <a href="https://imgur.com/1obIeHL"><img src="https://i.imgur.com//1obIeHL.png" title="source: imgur.com" /></a>  
     
-    - Closer look of a single event log details
+   - Closer look of a single event log details
    
- <a href="https://imgur.com/d66O1p8"><img src="https://i.imgur.com//d66O1p8.png" title="source: imgur.com" /></a>    
+   <a href="https://imgur.com/d66O1p8"><img src="https://i.imgur.com//d66O1p8.png" title="source: imgur.com" /></a>    
 
-# Lessons learned:
+  # Lessons learned:
 
- - Gained practical experience with deploying and configuring Elasticsearch on Azure.
- - Understand the functionality of Filebeat for log ingestion.
- - Learn how to utilize Kibana for security event visualization.
- - Simulate and analyze a real-world security attack scenario.
+   - Gained practical experience with deploying and configuring Elasticsearch on Azure.
+   - Understand the functionality of Filebeat for log ingestion.
+   - Learn how to utilize Kibana for security event visualization.
+   - Simulate and analyze a real-world security attack scenario.
 
  
