@@ -60,6 +60,7 @@ In essence, these integrations provide a powerful and centralized platform for c
 # 6. Visualizing Live Attack Network Traffic
    
    - Kibana > Security > Explore > Network
+   - Observe multiple geo locations of the malicious source IP
 
    <a href="https://imgur.com/tc6zMDg"><img src="https://i.imgur.com//tc6zMDg.png" title="source: imgur.com" /></a>   
 
@@ -88,17 +89,11 @@ In essence, these integrations provide a powerful and centralized platform for c
    
  <a href="https://imgur.com/d66O1p8"><img src="https://i.imgur.com//d66O1p8.png" title="source: imgur.com" /></a>    
 
-We will utilize Kibana, the visualization platform for Elasticsearch, to analyze and visualize the ingested logs in real-time. This will allow us to monitor for suspicious activity, including the simulated brute-force attack, and gain insights into potential security threats.
-Project Benefits:
+# Lessons learned:
 
-Centralized Log Management: Elasticsearch provides a centralized repository for logs from various sources, enabling efficient analysis and investigation.
-Real-Time Threat Detection: Kibana allows for real-time visualization of security events, enabling faster response to potential threats.
-Improved Security Posture: By simulating and monitoring a brute-force attack, we can improve our understanding of security vulnerabilities and implement necessary security measures.
-Learning Outcomes:
-
-Gain practical experience with deploying and configuring Elasticsearch on Azure.
-Understand the functionality of Filebeat for log ingestion.
-Learn how to utilize Kibana for security event visualization.
-Simulate and analyze a real-world security attack scenario.
+ - Gained practical experience with deploying and configuring Elasticsearch on Azure.
+ - Understand the functionality of Filebeat for log ingestion.
+ - Learn how to utilize Kibana for security event visualization.
+ - Simulate and analyze a real-world security attack scenario.
 
  
